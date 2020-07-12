@@ -712,7 +712,7 @@
           <div class="col-md-12">
             <p class="mb-0">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright by <b>Tim Ayo Klik</b> &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <-- <span class="icon-eye"><?php
+            Copyright by <b>Tim Ayo Klik</b> &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <span class="icon-eye"><?php
                               $filecounter=("counter.txt");
                               $kunjungan=file($filecounter);
                               $kunjungan[0]++;
@@ -720,7 +720,7 @@
                               fputs($file,"$kunjungan[0]");
                               fclose($file);
                               echo "<b style='color:#41436a; font-weight: bold; font-size: 1em;'> $kunjungan[0] </b>";
-                            ?></span> --><!-- <i class="icon-heart text-danger" aria-hidden="true"></i> -->
+                            ?></span><!-- <i class="icon-heart text-danger" aria-hidden="true"></i> -->
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
